@@ -30,9 +30,7 @@ depends: [
   "ocaml" {>= "4.04.0"}
   "dune" {build}
   "macaddr"
-  "sexplib0"
   "ounit" {with-test}
-  "ppx_sexp_conv" {with-test}
 ]
 build: [
   ["dune" "subst"] {pinned}
